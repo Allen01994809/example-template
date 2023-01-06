@@ -1,23 +1,9 @@
 {
-  "name": "frontend",
   "private": true,
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "",
-  "author": "TakakiAraki <sjyyj008@gmail.com>",
-  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export",
-    "start": "next start -p 80",
-    "lint:js": "eslint \"./src/**\"",
-    "lint:ci": "eslint \"./src/**\"",
-    "fix:js": "prettier --write ./src/**",
-    "generate": "npx generate-react-cli component",
-    "test": "jest",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^13.0.7",
